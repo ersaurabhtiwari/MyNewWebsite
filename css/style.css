@@ -1,3 +1,46 @@
+
+/*Template Name: xLander - Premium Flexible Landing Page Template
+Theme URL: http://themeforest.net/user/DSA79/
+Description: xLander - Premium Flexible Landing Page Template
+Author: DSA79
+Author URL: http://themeforest.net/user/DSA79
+Version: 1.0.0
+Website: www.dsathemes.com
+Tags: responsive, premium template, html5 template, one page, landing page, business, corporate, project
+*/
+
+
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+
+/*   01 - General & Basic Styles   */
+/*   02 - Header & Navigation      */
+/*   03 - Intro      			   */
+/*   04 - About		      		   */
+/*   05 - About-1	      		   */
+/*   06 - Skills				   */
+/*   07 - Services         		   */
+/*   08 - Features            	   */
+/*   09 - History				   */
+/*   10 - Statistic banner         */
+/*   11 - Portfolio        		   */
+/*   12 - Team					   */
+/*   13 - Pricing				   */
+/*   14 - Clients		 	  	   */
+/*   15 - Testimonials	      	   */
+/*   16 - Blog		 	  	   	   */
+/*   17 - Promo LIne	 	  	   */
+/*   18 - Contact Info 	  	   	   */
+/*   19 - Google Map 	  	   	   */
+/*   20 - Contacts	 	  	   	   */
+/*   21 - Footer		 	  	   */
+/*   22 - Scroll to Top	 	  	   */
+/*   23 - Contact Form Response    */
+
+
+
 /* ==========================================================================
    01. GENERAL & BASIC STYLES
    ========================================================================== */
@@ -2378,129 +2421,3 @@ nav a#pull {
 }
 
 
-@keyframes marqueeLeft {
-	0% {
-	  transform: translateX(100%);
-	}
-	100% {
-	  transform: translateX(-100%);
-	}
-  }
-  
-  #team .team_members_wrapper {
-	display: flex;
-	overflow: hidden;
-	padding: 10px;
-  }
-  
-  .team-member {
-	margin: 0 10px;
-	animation: marqueeLeft 10s linear infinite; /* Adjust animation duration as needed */
-  }
-  
-  .team-member .img-block img {
-	max-width: 100%;
-	height: auto;
-  }
-  
-
-
-/* Career section */
-#career {
-	padding-top: 80px;
-	padding-bottom: 50px;
-  }
-  
-  #career h2 {
-	font-size: 36px;
-	line-height: 42px;
-	font-weight: 400;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	margin-bottom: 30px;
-  }
-  
-  .job-listings {
-	display: flex;
-	flex-wrap: wrap;
-  }
-  
-  .job {
-	flex: 0 0 calc(50% - 20px);
-	margin: 10px;
-	padding: 20px;
-	background-color: #f9f9f9;
-  }
-  
-  .job h3 {
-	font-size: 24px;
-	font-weight: 500;
-	margin-bottom: 10px;
-  }
-  
-  .job p {
-	line-height: 24px;
-	margin-bottom: 20px;
-  }
-  
-  .job .btn-theme {
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: 700;
-	padding: 8px 16px;
-  }
-  
-
-
-/* Live Chat Button */
-.live-chat-button {
-	position: fixed;
-	bottom: 100px;
-	right: 20px;
-	z-index: 999;
-  }
-  
-  .live-chat-button button {
-	background-color: #13e169;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	font-size: 16px;
-  }
-  
-  .live-chat-button button:hover {
-	background-color: #0056b3;
-  }
-  
-  /* Live Chat Modal */
-  .modal {
-	display: none;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding: 20px;
-	background-color: #f9f9f9;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	z-index: 1000;
-  }
-  
-  .modal iframe {
-	width: 100%;
-	height: 87%;
-  }
-  
-  .modal button {
-	margin-top: 10px;
-	padding: 8px 16px;
-	background-color: #eb1313;
-    border: none;
-    border-radius: 11px;
-    color: white;
-    font-size: initial;
-    font-weight: bold;
-  }
-  
-  
